@@ -1,6 +1,5 @@
 ---
-tags:
-  - "#done"
+tags: []
 ---
 [[Topics/Sub Topics/N-Queens Problem|N-Queens Problem]]
 
