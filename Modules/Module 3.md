@@ -1,2 +1,2 @@
-[[Topics/Divide and Conquer]]
-[[Topics/Greedy]]
+![[Topics/Divide and Conquer]]
+![[Topics/Greedy]]

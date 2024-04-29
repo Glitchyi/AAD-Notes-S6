@@ -4,67 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "669e1dbca55d8321",
+        "id": "fc69d115cb439937",
         "type": "tabs",
         "children": [
           {
-            "id": "fd778824a5d031b4",
+            "id": "1f449dc181266941",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Greedy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fa30ee7622496a5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modules/Module 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ffd06c54637813b2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "02bceebc4dc1fb45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Kruskal's Algorithm.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b73346af910ce7f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Fractional Knapsack.md",
+                "file": "Topics/Travelling Salesman Problem.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Topics/Travelling Salesman Problem.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -154,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Topics/Travelling Salesman Problem.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Topics/Travelling Salesman Problem.md"
+              }
             }
           }
         ],
@@ -195,21 +154,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ffd06c54637813b2",
+  "active": "1f449dc181266941",
   "lastOpenFiles": [
-    "Topics/Dynamic Programming.md",
-    "Topics/Backtracking.md",
-    "Topics/N-Queens Problem.md",
+    "Topics/Travelling Salesman Problem.md",
+    "Topics/Floyd Warshall.md",
     "Topics/Branch and Bound.md",
-    "Topics/Kruskal's Algorithm.md",
+    "Topics/Matrix Chain Multiplication.md",
+    "Topics/Dynamic Programming.md",
     "Modules/Module 4.md",
+    "Topics/Dyn[]()amic Programming.md",
     "Modules/Module 3.md",
-    "Topics/Dijkstra’s Algorithm.md",
-    "Topics/Greedy.md",
-    "Topics/Fractional Knapsack.md",
-    "Topics/Strassen’s Matrix Multiplication.md",
+    "Topics/Backtracking.md",
     "Topics/2 Way Merge Sort.md",
+    "Topics/Fractional Knapsack.md",
     "Topics/Divide and Conquer.md",
+    "Topics/Dijkstra’s Algorithm.md",
+    "Topics/N-Queens Problem.md",
+    "Topics/Strassen’s Matrix Multiplication.md",
+    "Topics/Kruskal's Algorithm.md",
+    "Topics/Greedy.md",
+    "Untitled.md",
     "README.md",
     "Modules.md",
     "Single Sheets/Architectures.md",
@@ -225,14 +189,11 @@
     "Modules/Resue.md",
     "Modules/stuffing.md",
     "Modules/Module 5.md",
-    "Modules/Quick.md",
     "Images/Pasted image 20240107183126.png",
     "Images/Pasted image 20240107182932.png",
     "Images/Pasted image 20240107182233.png",
     "Classroom/CN-Module-V (1) (1).pdf",
     "Classroom/CN-Module-III.pdf",
-    "Modules/fig-link-to-image.md",
-    "Computer Networks.md",
     "Classroom/Encoding.pdf",
     "Classroom/mso6758.tmp",
     "Classroom/mso6266.tmp",
@@ -241,8 +202,6 @@
     "Classroom/CN-Module-IV .pdf",
     "Classroom/msoDB60.tmp",
     "Classroom/msoAC7F.tmp",
-    "Modules/SQL.md",
-    "Oracle SQL 10g Release 2.md",
     "Untitled.canvas"
   ]
 }

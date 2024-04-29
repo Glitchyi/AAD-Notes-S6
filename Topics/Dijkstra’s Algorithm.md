@@ -1,47 +1,35 @@
-## Dijkstra's Algorithm for Shortest Path
+## Introduction
 
-Dijkstra's algorithm is a greedy algorithm used to find the shortest path between a source vertex and all other vertices in a weighted graph. It is widely used in various applications, such as network routing protocols, GPS navigation systems, and social network analysis.
+Dijkstra's algorithm is a well-known method for finding the shortest paths from a single source node to all other nodes in a weighted graph with non-negative edge weights. Developed by Dutch computer scientist Edsger W. Dijkstra in 1956, it is used extensively in routing and as a subroutine in other graph algorithms[1][2].
 
-### Algorithm
+## Algorithm
 
-The algorithm works by maintaining a set of visited vertices and a set of unvisited vertices. It iteratively selects the unvisited vertex with the smallest distance from the source and updates the distances of its neighboring vertices if a shorter path is found.
+Here is the pseudocode for Dijkstra's algorithm:
 
-### Visualization
+```pseudo
+function Dijkstra(Graph, source):
+    dist[] = array of size |V| (number of vertices in the graph) with all values set to INFINITY
+    prev[] = array of size |V| with all values set to NULL
+    dist[source] = 0
+    Q = priority queue containing all nodes in the graph
 
-To visualize and remember the steps of Dijkstra's algorithm, we can use a table format:
+    while Q is not empty:
+        u = vertex in Q with the smallest distance in dist[]
+        remove u from Q
 
-| Vertex | Distance | Previous | Status |
-|--------|----------|----------|--------|
-|   A    |    0     |    -     | Visited |
-|   B    |    4     |    A     | Unvisited |
-|   C    |    2     |    A     | Visited |
-|   D    |    3     |    C     | Visited |
-|   E    |    7     |    C     | Unvisited |
-|   F    |    5     |    C     | Visited |
+        for each neighbor v of u still in Q:
+            alt = dist[u] + length(u, v)
+            if alt < dist[v]:
+                dist[v] = alt
+                prev[v] = u
 
-In this table:
+    return dist[], prev[]
+```
 
-1. The first column represents the vertices in the graph.
-2. The second column shows the current distance from the source vertex (in this case, vertex A) to each vertex.
-3. The third column indicates the previous vertex in the shortest path from the source to the current vertex.
-4. The fourth column represents the status of the vertex, either "Visited" or "Unvisited."
+## Explanation
 
-Here's how the algorithm progresses:
+The algorithm operates by maintaining a priority queue (Q) of vertices whose shortest distance from the source is tentatively known but not yet finalized. It starts by setting the distance to the source node as zero and all other nodes as infinity. The previous node in the optimal path of each node is initially set to null.
 
-1. Initially, the source vertex A has a distance of 0, and all other vertices have an infinite distance.
-2. The algorithm starts by visiting vertex A and updates the distances of its neighboring vertices (B and C) if a shorter path is found.
-3. Next, the algorithm selects the unvisited vertex with the smallest distance, which is vertex C, and marks it as visited.
-4. The distances of C's neighboring vertices (D and F) are updated if a shorter path is found through C.
-5. The algorithm then selects the next unvisited vertex with the smallest distance, which is vertex D, and marks it as visited.
-6. The process continues until all vertices have been visited or there are no more unvisited vertices reachable from the source.
+The main loop of the algorithm continues until the priority queue is empty. In each iteration, the node (u) with the smallest tentative distance is removed from the queue. The algorithm then considers every unvisited neighbor (v) of u. For each neighbor, it calculates the distance from the source to v through u. If this distance is less than the currently known distance to v, the algorithm updates the distance to v and sets u as the previous node on the path to v.
 
-By visualizing the algorithm using this table, you can easily understand the process of updating distances, tracking previous vertices in the shortest path, and marking vertices as visited or unvisited.
-
-The table also helps you remember the key aspects of Dijkstra's algorithm, such as:
-
-- The source vertex has a distance of 0.
-- Vertices are visited in order of their distances from the source.
-- Distances are updated only if a shorter path is found.
-- The "Previous" column keeps track of the previous vertex in the shortest path.
-
-This visualization technique can aid in understanding and implementing Dijkstra's algorithm for finding the shortest paths in weighted graphs.
+This process repeats until the priority queue is empty, at which point the array dist[] contains the shortest distances from the source to all other nodes, and the array prev[] can be used to reconstruct the shortest paths. To find the shortest path from the source to a particular vertex, you trace back from that vertex in prev[] until you reach the source

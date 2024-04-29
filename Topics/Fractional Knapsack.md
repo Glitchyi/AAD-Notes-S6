@@ -1,3 +1,8 @@
+---
+tags:
+  - done
+---
+
 ## Fractional Knapsack Problem
 
 The Fractional Knapsack Problem is a variation of the classic Knapsack Problem, where items can be divided into fractions. The goal is to maximize the total value of items that can be placed in a knapsack with a given weight capacity.
