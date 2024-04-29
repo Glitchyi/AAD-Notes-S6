@@ -1,6 +1,9 @@
 ---
 tags: []
 ---
+## Time Complexity
+
+$$ O(E \log E) $$ 
 ## Algorithm
 
 The algorithm works by sorting the edges in ascending order of their weights and then iteratively adding edges to the MST  if they don't form a cycle with the previously added edges.

@@ -1,9 +1,12 @@
 ---
 tags:
 ---
+## Time Complexity
+
+$$ O(n^3) $$ 
 ## Introduction
 
-The Floyd-Warshall algorithm is a fundamental algorithm used in computer science and graph theory for finding the shortest paths between all pairs of nodes in a weighted graph. It can handle both positive and negative edge weights but is not suitable for graphs with negative cycles. The algorithm is named after its developers, Robert Floyd and Stephen Warshall, and is notable for its application of dynamic programming principles[1][2][4].
+The Floyd-Warshall algorithm is a fundamental algorithm used in computer science and graph theory for finding the shortest paths between all pairs of nodes in a weighted graph. It can handle both positive and negative edge weights but is not suitable for graphs with negative cycles. The algorithm is named after its developers, Robert Floyd and Stephen Warshall, and is notable for its application of dynamic programming principles.
 
 ## Algorithm
 

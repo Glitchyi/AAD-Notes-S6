@@ -1,6 +1,9 @@
 ---
 tags: []
 ---
+## Time Complexity
+
+$$ O(N!) $$ 
 ## Introduction
 
 The N-Queens problem is a classic constraint satisfaction problem in computer science and mathematics. The objective is to place N queens on an N×N chessboard such that no two queens attack each other, meaning they cannot be in the same row, column, or diagonal. This problem has applications in various fields, including scheduling, circuit design, and parallel processing. 
