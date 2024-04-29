@@ -1,3 +1,6 @@
+---
+tags:
+---
 ## Introduction
 
 Matrix Chain Multiplication is a classic optimization problem that seeks the most efficient way to multiply a sequence of matrices. The challenge lies not in the multiplication itself, but in determining the optimal order of matrix multiplications that minimizes the total scalar multiplications involved. This problem is significant in various computational fields, particularly in optimizing the computational complexity of large-scale matrix operations[1][2][4].

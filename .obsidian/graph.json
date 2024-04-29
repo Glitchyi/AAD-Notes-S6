@@ -8,6 +8,13 @@
   "collapse-color-groups": true,
   "colorGroups": [
     {
+      "query": "tag:#done  path:Modules  ",
+      "color": {
+        "a": 1,
+        "rgb": 24874
+      }
+    },
+    {
       "query": "tag:#done  ",
       "color": {
         "a": 1,
@@ -18,7 +25,7 @@
       "query": "path:Modules",
       "color": {
         "a": 1,
-        "rgb": 12774911
+        "rgb": 9100543
       }
     },
     {
@@ -29,16 +36,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": -0.6,
   "nodeSizeMultiplier": 3.0859375,
   "lineSizeMultiplier": 3.87708333333333,
   "collapse-forces": false,
-  "centerStrength": 0.625,
-  "repelStrength": 17.5,
-  "linkStrength": 0.666666666666667,
-  "linkDistance": 62,
-  "scale": 0.4118024646620399,
+  "centerStrength": 0.316270453843779,
+  "repelStrength": 13.6745909231244,
+  "linkStrength": 0.723309663476382,
+  "linkDistance": 190,
+  "scale": 0.8094208240327966,
   "close": true
 }

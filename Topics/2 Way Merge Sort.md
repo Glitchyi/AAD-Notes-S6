@@ -1,4 +1,6 @@
-
+---
+tags:
+---
 ## Introduction
 
 The two-way merge sort algorithm is a divide-and-conquer algorithm used to sort an array or list of elements in ascending or descending order. It follows the principle of breaking down the problem into smaller sub-problems, solving them recursively, and then combining the solutions to obtain the final sorted array.

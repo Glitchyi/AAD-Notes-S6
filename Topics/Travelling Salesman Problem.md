@@ -1,3 +1,6 @@
+---
+tags:
+---
 ## Introduction
 
 The Traveling Salesman Problem (TSP) is a classic algorithmic problem in the field of computer science and operations research. It focuses on optimization and is defined as follows: given a list of cities and the distances between each pair of cities, what is the shortest possible route that visits each city exactly once and returns to the origin city? TSP is known for its computational complexity, as it is an NP-hard problem, meaning that no polynomial-time solution is known for the general case.

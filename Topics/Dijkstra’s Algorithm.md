@@ -1,3 +1,6 @@
+---
+tags:
+---
 ## Introduction
 
 Dijkstra's algorithm is a well-known method for finding the shortest paths from a single source node to all other nodes in a weighted graph with non-negative edge weights. Developed by Dutch computer scientist Edsger W. Dijkstra in 1956, it is used extensively in routing and as a subroutine in other graph algorithms[1][2].
