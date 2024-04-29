@@ -11,12 +11,8 @@
             "id": "93214023725850e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Topics/Backtracking.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Backtracking.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Backtracking.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Topics/Backtracking.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -156,6 +148,7 @@
   },
   "active": "93214023725850e0",
   "lastOpenFiles": [
+    "Topics/Backtracking.md",
     "Topics/Sub Topics/Dijkstra’s Algorithm.md",
     "Topics/Sub Topics/Floyd Warshall.md",
     "Topics/Sub Topics/Fractional Knapsack.md",
@@ -164,7 +157,6 @@
     "Topics/Sub Topics/N-Queens Problem.md",
     "Topics/Sub Topics/Matrix Chain Multiplication.md",
     "Topics/Sub Topics/2 Way Merge Sort.md",
-    "Topics/Backtracking.md",
     "Topics/Greedy.md",
     "Topics/Dynamic Programming.md",
     "Topics/Divide and Conquer.md",

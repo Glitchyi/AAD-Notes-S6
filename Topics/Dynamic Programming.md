@@ -30,12 +30,20 @@ function DynamicProgrammingSolution(problem):
 
 ## Explanation
 
-Dynamic programming algorithms are characterized by certain key features. Firstly, they exhibit overlapping subproblems, meaning the same smaller problems are solved multiple times within the context of solving the larger problem. Secondly, they have an optimal substructure, which implies that an optimal solution to the problem can be constructed from optimal solutions to its subproblems.
+### Process Overview
+Dynamic programming algorithms start by identifying overlapping subproblems and optimal substructure within the main problem. The algorithm then solves these subproblems and stores their solutions for future reference. The solutions to larger problems are then constructed from these stored solutions.
 
-To implement a dynamic programming solution, one can use either a top-down approach with memoization or a bottom-up approach with tabulation. Memoization involves solving the problem from the top down by breaking it into subproblems and storing their solutions for future reference. Tabulation, on the other hand, solves the problem from the bottom up by first solving the smallest subproblems and then combining their solutions to solve larger subproblems.
+### Overlapping Subproblems and Optimal Substructure
+- **Overlapping Subproblems**: This is a scenario where the same subproblems are solved multiple times within the context of solving the larger problem.
+- **Optimal Substructure**: This implies that an optimal solution to the problem can be constructed from optimal solutions to its subproblems.
 
-Dynamic programming differs from recursion in that it uses previously computed solutions to subproblems, thereby avoiding the inefficiencies associated with redundant calculations in pure recursive approaches. This is achieved through memoization or tabulation, which are forms of storing the solutions to subproblems.
+### Top-Down and Bottom-Up Approaches
+Dynamic programming can be implemented using either a top-down approach with memoization or a bottom-up approach with tabulation.
+- **Top-Down with Memoization**: This involves solving the problem from the top down by breaking it into subproblems and storing their solutions for future reference.
+- **Bottom-Up with Tabulation**: This solves the problem from the bottom up by first solving the smallest subproblems and then combining their solutions to solve larger subproblems.
 
-The advantages of dynamic programming include increased efficiency, simplicity, flexibility, optimality, clarity, and code reusability. It is applicable to a wide range of problems, such as computing the Fibonacci sequence, finding the longest common subsequence, determining the shortest path in a graph, and solving the knapsack problem.
+### Advantages and Applications
+- **Advantages**: Dynamic programming increases efficiency, simplicity, flexibility, optimality, clarity, and code reusability.
+- **Applications**: It is applicable to a wide range of problems, such as computing the Fibonacci sequence, finding the longest common subsequence, determining the shortest path in a graph, and solving the knapsack problem.
 
 In summary, dynamic programming is a powerful technique for solving problems that are characterized by overlapping subproblems and optimal substructure. It is an optimization over plain recursion, ensuring that each subproblem is solved only once, which leads to more efficient and effective solutions.
