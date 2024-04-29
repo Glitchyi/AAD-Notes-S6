@@ -1,8 +1,8 @@
 ---
 tags:
 ---
-[[Topics/2 Way Merge Sort|2 Way Merge Sort]]
-[[Topics/Strassen’s Matrix Multiplication|Strassen’s Matrix Multiplication]]
+[[Topics/Sub Topics/2 Way Merge Sort|2 Way Merge Sort]]
+[[Topics/Sub Topics/Strassen’s Matrix Multiplication|Strassen’s Matrix Multiplication]]
 ## Introduction
 
 Divide and Conquer is a powerful algorithmic paradigm that involves breaking down a complex problem into smaller subproblems, solving each subproblem independently, and then combining the solutions to the subproblems to solve the original problem. It is a recursive approach that leverages the principle of breaking a larger task into smaller, more manageable tasks until a base case is reached where the problem can be solved directly.

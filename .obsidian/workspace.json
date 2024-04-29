@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Topics/Backtracking.md",
+                "file": "Topics/Greedy.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Topics/Backtracking.md",
+                "file": "Topics/Greedy.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Topics/Backtracking.md",
+                "file": "Topics/Greedy.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Topics/Backtracking.md"
+                "file": "Topics/Greedy.md"
               }
             }
           }
@@ -181,24 +181,25 @@
   },
   "active": "cfd12e9e635758c9",
   "lastOpenFiles": [
-    "README.md",
+    "Topics/Dynamic Programming.md",
+    "Topics/Divide and Conquer.md",
+    "Topics/Branch and Bound.md",
     "Topics/Backtracking.md",
-    "Topics/2 Way Merge Sort.md",
+    "Topics/Sub Topics",
+    "README.md",
+    "Topics/Sub Topics/2 Way Merge Sort.md",
     "Modules/Module 4.md",
     "Modules/Module 3.md",
     "Images/Pasted image 20240429224244.png",
-    "Topics/Divide and Conquer.md",
-    "Topics/Dijkstra’s Algorithm.md",
-    "Topics/Branch and Bound.md",
-    "Topics/Dynamic Programming.md",
-    "Topics/Floyd Warshall.md",
-    "Topics/Fractional Knapsack.md",
+    "Topics/Sub Topics/Dijkstra’s Algorithm.md",
+    "Topics/Sub Topics/Floyd Warshall.md",
+    "Topics/Sub Topics/Fractional Knapsack.md",
     "Topics/Greedy.md",
-    "Topics/Kruskal's Algorithm.md",
-    "Topics/Matrix Chain Multiplication.md",
-    "Topics/N-Queens Problem.md",
-    "Topics/Strassen’s Matrix Multiplication.md",
-    "Topics/Travelling Salesman Problem.md",
+    "Topics/Sub Topics/Kruskal's Algorithm.md",
+    "Topics/Sub Topics/Matrix Chain Multiplication.md",
+    "Topics/Sub Topics/N-Queens Problem.md",
+    "Topics/Sub Topics/Strassen’s Matrix Multiplication.md",
+    "Topics/Sub Topics/Travelling Salesman Problem.md",
     "Algorithm Anaylysis.md",
     "Topics/Dyn[]()amic Programming.md",
     "Modules.md",
@@ -225,7 +226,6 @@
     "Classroom/msoDCD8.tmp",
     "Classroom/CN-Module-IV .pdf",
     "Classroom/msoDB60.tmp",
-    "Classroom/msoAC7F.tmp",
     "Untitled.canvas"
   ]
 }

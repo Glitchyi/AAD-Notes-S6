@@ -1,9 +1,9 @@
 ---
 tags:
 ---
-[[Topics/Fractional Knapsack]]
-[[Topics/Kruskal's Algorithm ]]
-[[Topics/Dijkstra’s Algorithm]]
+[[Topics/Sub Topics/Fractional Knapsack|Fractional Knapsack]]
+[[Topics/Sub Topics/Kruskal's Algorithm|Kruskal's Algorithm]]
+[[Topics/Sub Topics/Dijkstra’s Algorithm|Dijkstra’s Algorithm]]
 
 ## Introduction
 

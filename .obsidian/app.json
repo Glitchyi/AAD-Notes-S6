@@ -12,5 +12,6 @@
   "showInlineTitle": true,
   "promptDelete": false,
   "newFileLocation": "current",
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "defaultViewMode": "preview"
 }

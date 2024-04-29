@@ -1,8 +1,8 @@
 ---
 tags:
 ---
-[[Topics/Floyd Warshall]]
-[[Topics/Matrix Chain Multiplication]]
+[[Topics/Sub Topics/Floyd Warshall|Floyd Warshall]]
+[[Topics/Sub Topics/Matrix Chain Multiplication|Matrix Chain Multiplication]]
 
 ## Introduction
 

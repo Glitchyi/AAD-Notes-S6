@@ -2,7 +2,7 @@
 tags:
   - "#done"
 ---
-[[Topics/N-Queens Problem]]
+[[Topics/Sub Topics/N-Queens Problem|N-Queens Problem]]
 
 ## Introduction
 

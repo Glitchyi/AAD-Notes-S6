@@ -1,7 +1,7 @@
 ---
 tags:
 ---
-[[Topics/Travelling Salesman Problem|Travelling Salesman Problem]]
+[[Topics/Sub Topics/Travelling Salesman Problem|Travelling Salesman Problem]]
 ## Introduction
 
 Branch and Bound is a systematic method used in solving various optimization problems, particularly those that are NP-hard. This algorithmic paradigm works by partitioning all possible solutions into progressively smaller subsets (branches), evaluating them using a bounding function, and systematically excluding subsets that cannot contain the optimal solution (bound). It is widely used in combinatorial optimization problems such as the traveling salesman problem, job scheduling, and the knapsack problem. The key to its effectiveness lies in its ability to prune large portions of the search space, which reduces the number of solutions that need to be examined in detail.
